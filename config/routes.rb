@@ -8,6 +8,7 @@ SampeApp::Application.routes.draw do
   get "static_pages/about"
   get "/static_pages2/index"
   get "/static_pages2/list"
+  get "/static_pages/contact"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
