@@ -6,7 +6,7 @@ describe "StaticPages" do
   describe "Home page" do
     it "should have the content h1 'Home'" do
       visit root_path
-      page.should have_selector('h1',:text=>'Home')
+      page.should have_selector('h1',:text=>'Sample App')
     end
 
     it "should have the base title" do
@@ -25,7 +25,7 @@ describe "StaticPages" do
     it "should have the content 'Help'" do
       visit help_path
       page.should have_selector('h1',:text=>'Help')
-      page.should have_selector('title',:text=>"#{basic} | Help")
+      page.should have_selector('title',:text=>"#{basic}|Help")
     end
   end
 
@@ -42,7 +42,7 @@ describe "StaticPages" do
     it "should have the content 'Contact'" do
       visit contact_path
       page.should have_selector('h1',:text=>'Contact')
-      page.should have_selector('title',:text=>"#{basic} | Contact")
+      page.should have_selector('title',:text=>"#{basic}|Contact")
     end
   end
 end
