@@ -1,7 +1,7 @@
 class StaticPages2Controller < ApplicationController
-  def index
-  end
+	def index
+	end
 
-  def list
-  end
+	def list
+	end
 end

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Ruby On Rails tutorial Sample App | <%=yield(:title)%></title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+	<head>
+		<title>
+			<%=full_title(yield(:title))%>
+		</title>
+		<!-- :media=>"all" 就是传递一个hash作为参数给stylesheet_link_tag函数 -->
+		<%= stylesheet_link_tag    "application", :media => "all" %>
+		<%= javascript_include_tag "application" %><%= csrf_meta_tags %>
+	</head>
+	<body>
+		<%= yield %>
+	</body>
 </html>
