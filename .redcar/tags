@@ -1,0 +1,132 @@
+1364028900
+About page	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/static_pages_spec.rb	describe "About page" do
+AddAdminToUsers	/Users/shuxuan/Documents/rails_project/sampe_app/db/migrate/20130323071553_add_admin_to_users.rb	class AddAdminToUsers 
+AddIndexToUsersEmail	/Users/shuxuan/Documents/rails_project/sampe_app/db/migrate/20130317043242_add_index_to_users_email.rb	class AddIndexToUsersEmail 
+AddPasswordDigestToUsers	/Users/shuxuan/Documents/rails_project/sampe_app/db/migrate/20130317061740_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
+AddRememberTokenToUsers	/Users/shuxuan/Documents/rails_project/sampe_app/db/migrate/20130320131244_add_remember_token_to_users.rb	class AddRememberTokenToUsers 
+Application	/Users/shuxuan/Documents/rails_project/sampe_app/config/application.rb	  class Application 
+ApplicationController	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	/Users/shuxuan/Documents/rails_project/sampe_app/spec/helper/application_helper_spec.rb	describe "ApplicationHelper" do
+ApplicationHelper	/Users/shuxuan/Documents/rails_project/sampe_app/app/helpers/application_helper.rb	module ApplicationHelper
+AuthenticationPages	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "AuthenticationPages" do
+Contact	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/static_pages_spec.rb	describe "Contact" do
+CreateUsers	/Users/shuxuan/Documents/rails_project/sampe_app/db/migrate/20130316163949_create_users.rb	class CreateUsers 
+Help page	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/static_pages_spec.rb	describe "Help page" do
+Home page	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/static_pages_spec.rb	describe "Home page" do
+SampeApp	/Users/shuxuan/Documents/rails_project/sampe_app/config/application.rb	module SampeApp
+SessionsController	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/sessions_controller.rb	class SessionsController 
+SessionsHelper	/Users/shuxuan/Documents/rails_project/sampe_app/app/helpers/sessions_helper.rb	module SessionsHelper
+StaticPages	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/static_pages_spec.rb	describe "StaticPages" do
+StaticPages2Controller	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/static_pages2_controller.rb	class StaticPages2Controller 
+StaticPages2Helper	/Users/shuxuan/Documents/rails_project/sampe_app/app/helpers/static_pages2_helper.rb	module StaticPages2Helper
+StaticPages2s	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/static_pages2s_spec.rb	describe "StaticPages2s" do
+StaticPagesController	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
+StaticPagesHelper	/Users/shuxuan/Documents/rails_project/sampe_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+User	/Users/shuxuan/Documents/rails_project/sampe_app/app/models/user.rb	class User 
+UserPages	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "UserPages" do
+UsersController	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/users_controller.rb	class UsersController 
+UsersHelper	/Users/shuxuan/Documents/rails_project/sampe_app/app/helpers/users_helper.rb	module UsersHelper
+VALID_EMAIL_REGEX	/Users/shuxuan/Documents/rails_project/sampe_app/app/models/user.rb		VALID_EMAIL_REGEX=
+about	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/static_pages_controller.rb	  def about
+admin_user	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/users_controller.rb		def admin_user
+after saving the user	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "after saving the user" do
+after sign out	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "after sign out" do
+after signing in	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "after signing in" do
+after submission	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "after submission" do
+after visit another page	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "after visit another page" do
+as an admin user	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "as an admin user" do
+as non-admin user	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "as non-admin user" do
+as wrong user	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "as wrong user" do
+authorization	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "authorization" do
+change	/Users/shuxuan/Documents/rails_project/sampe_app/db/migrate/20130323071553_add_admin_to_users.rb	  def change
+change	/Users/shuxuan/Documents/rails_project/sampe_app/db/migrate/20130320131244_add_remember_token_to_users.rb	  def change
+change	/Users/shuxuan/Documents/rails_project/sampe_app/db/migrate/20130317061740_add_password_digest_to_users.rb	  def change
+change	/Users/shuxuan/Documents/rails_project/sampe_app/db/migrate/20130317043242_add_index_to_users_email.rb		def change
+change	/Users/shuxuan/Documents/rails_project/sampe_app/db/migrate/20130316163949_create_users.rb	  def change
+contact	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/static_pages_controller.rb	  def contact
+correct_user	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/users_controller.rb		def correct_user
+create	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/users_controller.rb		def create
+create	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/sessions_controller.rb		def create
+create_remember_token	/Users/shuxuan/Documents/rails_project/sampe_app/app/models/user.rb		def create_remember_token
+current_user	/Users/shuxuan/Documents/rails_project/sampe_app/app/helpers/sessions_helper.rb		def current_user
+current_user=	/Users/shuxuan/Documents/rails_project/sampe_app/app/helpers/sessions_helper.rb		def current_user=(user)
+current_user?	/Users/shuxuan/Documents/rails_project/sampe_app/app/helpers/sessions_helper.rb		def current_user?(user)
+delete links	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "delete links" do
+destroy	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/users_controller.rb		def destroy
+destroy	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/sessions_controller.rb		def destroy
+edit	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "edit" do
+edit	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/users_controller.rb		def edit
+edit page	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "edit page" do
+email address should be lower case	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "email address should be lower case" do
+for non-signed-in users	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "for non-signed-in users" do
+full_title	/Users/shuxuan/Documents/rails_project/sampe_app/spec/helper/application_helper_spec.rb	describe "full_title" do
+full_title	/Users/shuxuan/Documents/rails_project/sampe_app/app/helpers/application_helper.rb		def full_title(page_title)
+gravatar_for	/Users/shuxuan/Documents/rails_project/sampe_app/app/helpers/users_helper.rb		def gravatar_for 
+help	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/static_pages_controller.rb	  def help
+home	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/static_pages_controller.rb	  def home
+in the Users controller	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "in the Users controller" do
+index	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "index" do
+index	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/static_pages2s_spec.rb	describe "index" do
+index	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/users_controller.rb		def index
+index	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/static_pages2_controller.rb		def index
+list	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/static_pages2s_spec.rb	describe "list" do
+list	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/static_pages2_controller.rb		def list
+new	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/users_controller.rb		def new
+new	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/sessions_controller.rb		def new
+pagination	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "pagination" do
+profile page	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "profile page" do
+redirect_back_or	/Users/shuxuan/Documents/rails_project/sampe_app/app/helpers/sessions_helper.rb		def redirect_back_or(default)
+remember_token	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "remember_token" do
+return value of authenticate method	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
+should be able to delete another user	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	it "should be able to delete another user" do
+should be invalid	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	it "should be invalid" do
+should be saved as all lower case	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	it "should be saved as all lower case" do
+should be valid	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	it "should be valid" do
+should create a user	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	it "should create a user" do
+should display the content of 'list'	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/static_pages2s_spec.rb	it "should display the content of 'list'" do
+should display the content of index	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/static_pages2s_spec.rb	it "should display the content of index" do
+should have the right links on the layout	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/static_pages_spec.rb	it "should have the right links on the layout" do
+should include the base title	/Users/shuxuan/Documents/rails_project/sampe_app/spec/helper/application_helper_spec.rb	it "should include the base title" do
+should include the page title	/Users/shuxuan/Documents/rails_project/sampe_app/spec/helper/application_helper_spec.rb	it "should include the page title" do
+should list each user	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	it "should list each user" do
+should list each user	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	it "should list each user" do
+should not create a user	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	it "should not create a user" do
+should not include a bar for the home page	/Users/shuxuan/Documents/rails_project/sampe_app/spec/helper/application_helper_spec.rb	it "should not include a bar for the home page" do
+should render the desired protected page	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	it "should render the desired protected page" do
+show	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/users_controller.rb		def show
+sign in page	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "sign in page" do
+sign in with invalid info	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "sign in with invalid info" do
+sign in with valid info	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "sign in with valid info" do
+sign_in	/Users/shuxuan/Documents/rails_project/sampe_app/spec/support/utilities.rb	def sign_in(user)
+sign_in	/Users/shuxuan/Documents/rails_project/sampe_app/app/helpers/sessions_helper.rb		def sign_in(user)
+sign_out	/Users/shuxuan/Documents/rails_project/sampe_app/app/helpers/sessions_helper.rb		def sign_out
+signed_in?	/Users/shuxuan/Documents/rails_project/sampe_app/app/helpers/sessions_helper.rb		def signed_in?
+signed_in_user	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/users_controller.rb		def signed_in_user
+signup	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "signup" do
+signup page	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "signup page" do
+store_location	/Users/shuxuan/Documents/rails_project/sampe_app/app/helpers/sessions_helper.rb		def store_location
+submitting a DELETE request to the Users#destroy action	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "submitting a DELETE request to the Users#destroy action" do
+submitting a PUT request to the Users#update action	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "submitting a PUT request to the Users#update action" do
+submitting to the update action	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "submitting to the update action" do
+update	/Users/shuxuan/Documents/rails_project/sampe_app/app/controllers/users_controller.rb		def update
+visiting Users#edit page	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "visiting Users#edit page" do
+visiting the edit page	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "visiting the edit page" do
+visiting the user index	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "visiting the user index" do
+when attempting to visit a protected page	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/authentication_pages_spec.rb	describe "when attempting to visit a protected page" do
+when email format is invalid	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "when email format is invalid" do
+when email is already taken	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "when email is already taken" do
+when email is not present	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "when email is not present" do
+when email it valid	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "when email it valid" do
+when name is not present	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "when name is not present" do
+when name is too long	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "when name is too long" do
+when password doesn't match password_confirmation	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "when password doesn't match password_confirmation" do
+when password is not present	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "when password is not present" do
+when password_confirmation is nil	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "when password_confirmation is nil" do
+with a password that's too long	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "with a password that's too long" do
+with admin attribute set to 'true'	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "with admin attribute set to 'true'" do
+with invalid information	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
+with invalid information	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
+with invalid password	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "with invalid password" do
+with valid information	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
+with valid information	/Users/shuxuan/Documents/rails_project/sampe_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
+with valid password	/Users/shuxuan/Documents/rails_project/sampe_app/spec/models/user_spec.rb	describe "with valid password" do

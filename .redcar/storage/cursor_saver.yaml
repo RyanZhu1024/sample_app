@@ -1,0 +1,8 @@
+--- 
+cursor_positions: 
+  - :path: app/controllers/sessions_controller.rb
+    :cursor_offset: 320
+    :timestamp: 2013-03-23 16:54:40 +08:00
+    :selection_offset: 308
+    :block_selection_mode: false
+files_to_retain: 0
