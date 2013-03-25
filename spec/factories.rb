@@ -8,4 +8,9 @@ FactoryGirl.define do
 			admin true
 		end
 	end
+
+	# factory :micropost(user) do
+	# 	content "first micropost"
+	# 	user_id user.id
+	# end
 end
