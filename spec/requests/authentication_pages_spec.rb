@@ -54,8 +54,15 @@ describe "AuthenticationPages" do
 			end
 		end
 
+
 		describe "for non-signed-in users" do
 			let(:user) { FactoryGirl.create(:user) }
+
+			describe "when visiting the main page" do
+				before {visit root_path}
+				it {should_not have_link('Profile')}
+				it {should_not have_link('Settings')}
+			end
 
 			describe "when attempting to visit a protected page" do
 				before do
