@@ -2,6 +2,8 @@ class UsersController < ApplicationController
 	before_filter :signed_in_user,only:[:index,:edit,:update,:destroy]
 	before_filter :correct_user,only:[:edit,:update]
 	before_filter :admin_user,only:[:destroy]
+	before_filter :signed_in,only:[:new,:create]
+	before_filter :admin_cant_be_destory,only:[:destroy]
 	def new
 		@user=User.new
 	end
@@ -62,4 +64,19 @@ class UsersController < ApplicationController
 	def admin_user
 		redirect_to(root_path) unless current_user.admin?
 	end
+
+	def signed_in
+		if signed_in?
+			redirect_to root_path
+		end
+	end
+
+	def admin_cant_be_destory
+		user=User.find(params[:id])
+		if user.admin? and user==current_user
+			flash[:error]="Admin can't destory itself."
+			redirect_to current_user
+		end
+	end
+
 end
