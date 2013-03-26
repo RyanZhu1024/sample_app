@@ -27,7 +27,8 @@ describe User do
 	it {should respond_to(:admin)}
 	it {should respond_to(:remember_token)}
 	it {@user.email.should respond_to(:downcase)}
-	it {should respond_to(:microposts)}	
+	it {should respond_to(:microposts)}
+	it {should respond_to(:feed)}
 	it {should_not be_accessible :admin}
 
 	it {should be_valid}
@@ -50,6 +51,16 @@ describe User do
 			microposts.each do |m|
 				Micropost.find_by_id(m.id).should be_nil
 			end
+		end
+
+		describe "status" do
+			let(:unfollowed_post) do
+				FactoryGirl.create(:micropost, user: FactoryGirl.create(:user))
+			end
+
+			its(:feed) { should include(newer_micropost) }
+			its(:feed) { should include(older_micropost) }
+			its(:feed) { should_not include(unfollowed_post) }
 		end
 	end
 

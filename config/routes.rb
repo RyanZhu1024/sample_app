@@ -1,7 +1,7 @@
 SampeApp::Application.routes.draw do
 
   resources :users
-  # resources :microposts,only:[:destroy,:create]
+  resources :microposts,only:[:destroy,:create]
   resources :sessions,only:[:new,:destroy,:create]
   # get "users/new"
 
