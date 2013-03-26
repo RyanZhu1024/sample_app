@@ -9,8 +9,8 @@ FactoryGirl.define do
 		end
 	end
 
-	# factory :micropost(user) do
-	# 	content "first micropost"
-	# 	user_id user.id
-	# end
+	factory :micropost do
+		content "first micropost"
+		user
+	end
 end

@@ -64,6 +64,23 @@ describe "AuthenticationPages" do
 				it {should_not have_link('Settings')}
 			end
 
+			describe "in the microposts controller" do
+				describe "submitting a create action" do
+					before {post microposts_path}
+					specify {response.should redirect_to signin_path}
+				end
+
+				describe "submitting a destroy action" do
+					before do
+						# delete microposts_path(FactoryGirl.create(:micropost))
+						po=FactoryGirl.create(:micropost)
+						delete micropost_path(po)
+					end
+					# before {delete micropost_path(FactoryGirl.create(:micropost))}
+					specify {response.should redirect_to signin_path}
+				end
+			end
+
 			describe "when attempting to visit a protected page" do
 				before do
 					visit edit_user_path(user)

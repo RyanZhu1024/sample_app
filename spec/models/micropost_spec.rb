@@ -4,14 +4,15 @@ describe Micropost do
 	let(:user){FactoryGirl.create(:user)}
 	before do
 		# @micropost=Micropost.new(content:"first micropost",user_id:user.id)
-		@micropost=user.microposts.build(:content=>"first micropost")
+		@micropost=user.microposts.build(content:"first micropost")
 	end
 
 	subject (@micropost)
 	it {should respond_to(:content)}
 	it {should respond_to(:user_id)}
 	it {should respond_to(:user)}
-	its(:user){should==user}
+	specify{@micropost.user==user}
+	# its(:user){should==user}
 
 	describe "accessible attributes" do
 		it "should not allow accessing to user_id" do
@@ -23,6 +24,16 @@ describe Micropost do
 
 	describe "when user_id is not present" do
 		before{@micropost.user_id=nil}
+		it {should_not be_valid}
+	end
+
+	describe "with blank content" do
+		before {@micropost.content=nil}
+		it {should_not be_valid}
+	end
+
+	describe "with content too long" do
+		before {@micropost.content="a"*141}
 		it {should_not be_valid}
 	end
 end

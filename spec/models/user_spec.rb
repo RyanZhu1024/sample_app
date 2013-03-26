@@ -34,6 +34,26 @@ describe User do
 	it { should_not be_admin }
 
 
+	describe "microposts associations" do
+		before {@user.save}
+		let!(:old_micropost){FactoryGirl.create(:micropost,user:@user,created_at:1.day.ago)}
+		let!(:new_micropost){FactoryGirl.create(:micropost,user:@user,created_at:1.hour.ago)}
+
+		it "should have the right sequence" do
+			@user.microposts.should==[new_micropost,old_micropost]
+		end
+
+		it "should destroy associated microposts" do
+			microposts=@user.microposts.dup
+			@user.destroy
+			microposts.should_not be_empty
+			microposts.each do |m|
+				Micropost.find_by_id(m.id).should be_nil
+			end
+		end
+	end
+
+
 	describe "with admin attribute set to 'true'" do
 		before { @user.toggle!(:admin) }
 
