@@ -1,8 +1,13 @@
 SampeApp::Application.routes.draw do
 
-  resources :users
+  resources :users do
+    member do
+      get :following, :followers
+    end
+  end
   resources :microposts,only:[:destroy,:create]
   resources :sessions,only:[:new,:destroy,:create]
+  resources :relationships, only: [:create, :destroy]
   # get "users/new"
 
   root to:'static_pages#home'
